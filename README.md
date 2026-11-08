@@ -4,7 +4,7 @@ Multiclass classification of fetal health from cardiotocography (CTG) records, c
 scikit-learn classifiers, with a Streamlit app that loads the saved models and evaluates them on
 an uploaded CSV, without retraining.
 
-**Live app:** _link added after deployment_
+**Live app:** https://fetal-health-ashish.streamlit.app/
 
 ## Problem
 
