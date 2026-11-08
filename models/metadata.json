@@ -1,0 +1,40 @@
+{
+  "target": "fetal_health",
+  "class_names": {
+    "1": "Normal",
+    "2": "Suspect",
+    "3": "Pathological"
+  },
+  "feature_columns": [
+    "baseline value",
+    "accelerations",
+    "fetal_movement",
+    "uterine_contractions",
+    "light_decelerations",
+    "severe_decelerations",
+    "prolongued_decelerations",
+    "abnormal_short_term_variability",
+    "mean_value_of_short_term_variability",
+    "percentage_of_time_with_abnormal_long_term_variability",
+    "mean_value_of_long_term_variability",
+    "histogram_min",
+    "histogram_max",
+    "histogram_number_of_peaks",
+    "histogram_number_of_zeroes",
+    "histogram_mode",
+    "histogram_mean",
+    "histogram_median",
+    "histogram_variance",
+    "histogram_tendency"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "sklearn_version": "1.8.0",
+  "models": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Gaussian NB": "gaussian_nb.joblib",
+    "SVM": "svm.joblib"
+  }
+}
